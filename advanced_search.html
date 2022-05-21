@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Розширений пошук</title>
+        <link rel="stylesheet" href="google_styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <img id="google_small_logo" src="googlelogo_small.svg">
+            <a class="header_links" href="index.html">Пошук Google</a>
+        </div>
+        <div id="advanced_search_header">
+            Розширений пошук
+        </div>
+        <hr id="horizontal_separating_line">
+
+        <div id="advanced_search_main_div">
+            <form id="advanced_search_form">
+                
+                <div id="advanced_search_flex_div">
+                    <div id="flex_child_row">
+                        <div class="sub3_labels" id="find_pages_title">
+                            Знайти сторінки, що містять:
+                        </div>
+                        <div class="sub3_fields"></div>
+                        <div class="sub3_description" id="how_to_do_this_label">
+                            Як це зробити в полі пошуку 
+                        </div>
+                    </div>
+                    <div id="flex_child_row">
+                        <div class="sub3_labels">
+                            усі ці слова:
+                        </div>
+                        <div class="sub3_fields">
+                            <input type="text" name="as_q" class="sub3_input_field"> 
+                        </div>
+                        <div class="sub3_description">
+                            <div>
+                                Введіть важливі слова:&nbsp <span class="description_monospace">триколірний рет-тер’єр</span> 
+                            </div>
+                        </div>
+                    </div>
+                    <div id="flex_child_row">
+                        <div class="sub3_labels">
+                            точне слово або фразу:
+                        </div>
+                        <div class="sub3_fields">
+                            <input type="text" name="as_epq" class="sub3_input_field"> 
+                        </div>
+                        <div class="sub3_description">
+                            <div>
+                                Візьміть точні слова в лапки:&nbsp <span class="description_monospace"> "рет-тер’єр" </span> 
+                            </div>
+                        </div>
+                    </div>
+                    <div id="flex_child_row">
+                        <div class="sub3_labels">
+                            будь-яке з цих слів:
+                        </div>
+                        <div class="sub3_fields">
+                            <input type="text" name="as_oq" class="sub3_input_field"> 
+                        </div>
+                        <div class="sub3_description">
+                            <div>
+                                Введіть OR між усіма потрібними словами:&nbsp <span class="description_monospace"> мініатюрні OR стандартні </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="flex_child_row">
+                        <div class="sub3_labels">
+                            жодне з цих слів:
+                        </div>
+                        <div class="sub3_fields">
+                            <input type="text" name="as_eq" class="sub3_input_field"> 
+                        </div>
+                        <div class="sub3_description">
+                            <div>
+                                Поставте знак мінус перед небажаними словами:&nbsp <span class="description_monospace"> -гризун, -"Джек Рассел" </span>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                </div>
+                <br>
+                <input type="submit" value="Розширений пошук" class="blue_buttons" formaction="https://www.google.com.ua/search">
+            </form>
+        </div>
+    </body>
+</html>

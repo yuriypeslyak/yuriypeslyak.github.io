@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Пошук Зображень</title>
+        <link rel="stylesheet" href="google_styles.css">
+    </head>
+    <body>
+        <div class="header">
+
+            <a class="header_links" href="index.html">Пошук Google</a>
+
+        </div>   
+        
+        <form>
+            <div class="main_search_div">
+                <div id="image_block">
+                    <img src="guinea_search.png" alt="Custom Google Image">
+                    <div id="label_images">
+                        Images
+                    </div>    
+                </div>
+                <div id="search_block">
+                    <input id="primary_search_input" type="text" name="q">
+                </div>
+                <div id="search_block">
+                    <input name="tbm" value="isch" hidden>
+                    <input name="sclient" value="img" hidden>
+                    <input type="submit" value="Пошук зображень" class="search_button" formaction="https://google.com/search">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
