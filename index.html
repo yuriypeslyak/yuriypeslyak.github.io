@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Hello world</title>
+        <title>Search</title>
+        <link rel="stylesheet" href="google_styles.css">
     </head>
     <body>
-        This is a test page.
-        <br> 
-        Test.
+        <div class="header">
+            <div class="header_items">
+                <a class="header_links" href="search_images.html">Пошук зображень</a>
+            </div>
+            <div class="header_items">
+                <a class="header_links" href="advanced_search.html">Розширений пошук</a>
+            </div>
+        </div>   
+        
+        <form action="https://google.com/search">
+            <div class="main_search_div">
+                <div>
+                    <img src="guinea_search.png" alt="Custom Google Image">
+                </div>
+                <div id="search_block">
+                    <input id="primary_search_input" type="text" name="q">
+                </div>
+                <div id="search_block">
+                    <input type="submit" name="btnG" value="Пошук Google" class="search_button">          
+                    <input type="submit" name="btnI" value="Мені пощастить" class="search_button">
+                </div>
+            </div>
+        </form>
     </body>
 </html>
