@@ -1,5 +1,5 @@
 body {
-    min-width: 350px;
+    min-width: 365px;
 }
 
 .header {
@@ -27,8 +27,8 @@ body {
 
 .main_search_div {
     margin-top: 10px;
-    min-height: 320px;
-    max-height: 400px;
+    min-height: 350px;
+    max-height: 450px;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ body {
 }
 
 #search_block {
-    margin-top: 25px;
+    margin-top: 15px;
     width: 86vw;
     max-width: 582px;
     min-width: 358px;
@@ -58,7 +58,7 @@ body {
 }
 
 #primary_search_input:hover, #primary_search_input:focus {
-    box-shadow: 1px 1px 5px green;
+    box-shadow: 1px 1px 5px lightgrey;
 }
 
 #primary_search_input:focus {
@@ -94,19 +94,18 @@ body {
     font-size: 16px;
     color: #4285f4;
     position: absolute;
-    top: 75px;
-    left: 177px;
+    top: 223px;
+    left: 237px;
 }
 
 #google_small_logo {
     position: absolute;
-    left: 10px;
+    left: 15px;
     top: 14px;
 }
 
 #advanced_search_header {
-    padding: 35px;
-    padding-bottom: 20px;
+    padding: 35px 0px 35px 15px;
     color: #d93025;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -118,7 +117,7 @@ body {
 }
 
 #advanced_search_main_div {
-    margin: 30px 15px 15px 35px;
+    margin: 30px 15px 15px 15px;
 }
 
 #find_pages_title {
@@ -218,4 +217,48 @@ body {
 .blue_buttons:hover {
     background-color: #4787ed;
     border-color: #3052ed;
+}
+
+#piggy_image {
+    width: 300px;
+    border-radius: 4px;
+}
+
+#image_container {
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#guinea_text {
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+
+.color_blue {
+    color: #4484f7;
+}
+
+.color_red {
+    color: #ec4136;
+}
+
+.color_yellow {
+    color: #febb04;
+}
+
+.color_green {
+    color: #35a852;
+}
+
+#powered_by_label {
+    position: absolute;
+    color: #858e9e;
+    font-size: 12px;
+    left: 195px;
+    bottom: 49px;
+}
+
+#lightbold {
+    font-weight: 500;
 }
