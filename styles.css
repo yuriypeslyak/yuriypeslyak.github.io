@@ -1,0 +1,45 @@
+body {
+    background-color: lightyellow;
+    min-width: 365px;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 36px;
+    font-weight: 500px;
+    text-align: center;
+}
+
+#verse {
+    align-content: center;
+    font-size: 20px;
+    color: darkblue;
+    line-height: 8mm;
+}
+
+#image_container_parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image_container_child {
+    padding: 10px;
+}
+
+#author_name_parent {
+    height: 100vh;
+    max-height: calc(100vh - 675px);
+    color:rgb(132, 63, 146);
+    font-style: italic;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#author_name_child {
+    text-align: right;
+    margin-right: 20px;
+}
